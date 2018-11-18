@@ -1,8 +1,201 @@
-#adiv {
-background-image: url('../images/dead_flower.jpg');
-background-size: contain;
-background-repeat: none;
-width: 100%;
-margin: 0 auto;    
-height: 2638px;
+html, body, #hero {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: proxima nova, sans-serif;
+    
+}
+p {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+}
+h1 {
+	font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+    font-size: 64px;
+    line-height: 72px;
+}
+h2 {
+	font-size: 54px;
+	line-height: 64px;
+	text-align: left;
+}
+#colorbar {
+    height: 10px;
+    width: 100%;
+    top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    background-image: url('../images/SVG/color_bar.svg'); 
+}
+
+#hero {
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/cm_hero.jpg');
+    background-size: cover;
+    margin-top: 0;
+    top: 0;
+}
+
+#hero section {
+    margin-left: 180px;
+	padding: 0;
+}
+#meet_logo {
+    width: auto;
+    height: 171px;
+    margin-top: 100px;
+    margin-bottom: 0;
+	bottom: 0;
+}
+#hero h1 {
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+    font-size: 64px;
+    line-height: 72px;
+    top: -40;
+}
+#hero section img {
+    width: 18%;
+    margin-right: 20px;
+}
+
+.section {
+    width: 100%;
+    height: 750px;
+    z-index: 1;
+}
+#find {
+	background-color: #FB0202;
+	color: #ffffff;
+	text-align: left;
+}
+.base {
+	width: 464px;
+	height: 773px;
+	float: left;
+	margin-left: 0px;
+	margin-top: 50px;
+	position: absolute;
+	z-index: 0;
+}
+.overlap {
+	width: 464px;
+	height: 773px;
+	float: left;
+	margin-left: 200px;
+	margin-top: 50px;
+	position: absolute;
+	z-index: 1;
+}
+.section_copy {
+	width: 650px;
+	float: right;
+	margin-right: 160px;
+	margin-top: 180px;
+}
+#list {
+	position: relative;
+	height: 500px;
+}
+#list h2 {
+	text-align: center;
+	margin-top: 240px;
+	z-index: 1;
+	position: relative;
+}
+#list p {
+	width: 900px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1;
+	position: relative;
+}
+
+#list img {
+	width: 376px; 
+	height: 385px;
+	margin-right: 200px;
+	z-index: -1;
+	opacity: .2;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#connections {
+	background-color: #79A3AA;
+	position: relative;
+	height: 500px;
+}
+#connections img {
+	width: 782px;
+	height: 587px;
+	left: 0;
+	position: absolute;
+	
+}
+#connections .section_copy {
+	width: 600px;
+	float: right;
+	margin-right: 150px;
+	margin-top: 80px;
+	color: #ffffff;
+}
+
+#cm_community {
+	position: relative;
+}
+#cm_community .section_copy {
+	position: absolute;
+	left: 0;
+	color: #000000;
+	margin-left: 200px;
+	margin-top: 200px;
+}
+#community_image {
+	right: 0;
+	position: absolute;
+	z-index: -1;
+	width: 600px;
+	height: 100%;
+	overflow: hidden;
+	margin-top: 100px;
+}
+#community_image img {
+	width: 100%;
+	max-height: 100%;
+}
+#start_meeting {
+	height: 300px;
+	background: #000000;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 30px;
+	margin-top: 120px;
+	bottom: 0;
+}
+#start_meeting h2 {
+	text-align: center;
+}
+#start_meeting img {
+    width: 15%;
+    margin-right: 20px;
+}
+
+footer {
+	height: 10px;
+	background: #ffffff;
+	text-align: center;
+	top: 0;
+}
+footer p {
+	margin: 20px;
+	font-size: 12px;
 }
