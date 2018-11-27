@@ -3,7 +3,6 @@
 <head>
  <meta charset="utf-8">
     <link href="styles/styles.css" rel="stylesheet"/>
-     <div>
     <link rel="stylesheet" href="https://use.typekit.net/yzi5cri.css">
 
 <title>Meet by Creative Mornings</title>
@@ -20,6 +19,7 @@
             <img src="images/Get_it_on_Google_play.png" alt="download on Google play"/>
         
         </section>
+		<a class="toscroll" href="#find"><img src="images/Group 31.png" alt="keep scrolling button" /></a>
         
     </div>
     
@@ -30,14 +30,14 @@
     <h2> Find Meetups </h2>
         <p> Meet provides you with all of the creative events happening in your area. Whatever you’re needing from your community, we’ve got it. Search categories like Networking, Critique, and Workshops to find an event that will help you find the professional relationships you want. </p>
 		</section>
-		<img src="images/event_screen_mockup.png" class="base"/><img src="images/event_screen_mockup_2.png" class="overlap"/>
+		<img src="images/event_screen_mockup.png" class="base" alt="iphone event screen"/><img src="images/event_screen_mockup_2.png" class="overlap" alt="iphone event screen 2"/>
     </div>
 	
 	
 	<div class="section" id="list">
 		<h2> List Events </h2>
 		<p> Share events that you’re excited about. You can submit events that aren’t already on our roster for approval by your Creative Mornings chapter host. </p>
-		<img src="images/SVG/add_event_icon.svg"/>
+		<img src="images/SVG/add_event_icon.svg" alt="add event icon"/>
 	</div>
 	
 	
@@ -46,7 +46,7 @@
 			<h2> Make Connections </h2>
 			<p> Use the social features in Meet to make “connections” with other Creative Mornings members right from your fingertips. Connect with friends, old acquaintances, or new people you meet at events! </p>
 		</section>
-		<img src="images/connect_perspective_screen.png"/>
+		<img src="images/connect_perspective_screen.png" alt="connect through meet iphone screen"/>
 	</div>
 	
 	<div class="section" id="cm_community">
@@ -55,7 +55,7 @@
 		<p> We want to give the Creative Mornings community the chance to connect with each other and others more than once a month. With meetup opportunities and events throughout the month, we hope you’ll soon be feeling more connected and inspired than ever. Meet connects directly to your pre-existing Creative Mornings account so when you sign in, you’ll get to search for events within proximity of your chapter. </p>
 		</section>
 		<div id="community_image">
-		<img src="images/Group 47.png"/>
+		<img src="images/Group 47.png" alt="profile image collage"/>
 		</div>
 	</div>
 	
@@ -69,6 +69,16 @@
 	<p> Meet by Creative Mornings Copyright 2018 &copy;   |   <a href="http://www.creativemornings.com" target="_blank">www.creativemornings.com</a> </p>	
 </footer>
  
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+            $("a.toscroll").click(function (event) {
+                event.preventDefault();
+                $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
+            });
+        });
+		
+	</script>
 </body>
 </html>
  

@@ -22,21 +22,23 @@ h2 {
 	line-height: 64px;
 	text-align: left;
 }
-#colorbar {
+/**#colorbar {
     height: 10px;
     width: 100%;
     top: 0;
     margin-top: 0;
     margin-bottom: 0;
     position: relative;
-    background-image: url('../images/SVG/color_bar.svg'); 
-}
+    background-image: url('../images/SVG/color-bar-small_1.svg'); 
+}**/
 
 #hero {
-    height: 100%;
+    height: 768px;
     width: 100%;
-    background-image: url('../images/cm_hero.jpg');
-    background-size: cover;
+    background-image: url('../images/cm_hero2.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
     margin-top: 0;
     top: 0;
 }
@@ -44,6 +46,7 @@ h2 {
 #hero section {
     margin-left: 180px;
 	padding: 0;
+	
 }
 #meet_logo {
     width: auto;
@@ -63,6 +66,10 @@ h2 {
 #hero section img {
     width: 18%;
     margin-right: 20px;
+}
+#hero a img {
+	margin-left: 420px;
+	margin-top: 50px;
 }
 
 .section {
