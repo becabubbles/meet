@@ -22,15 +22,18 @@ h2 {
 	line-height: 64px;
 	text-align: left;
 }
-/**#colorbar {
-    height: 10px;
+#colorbar {
+    height: 5px;
     width: 100%;
     top: 0;
     margin-top: 0;
     margin-bottom: 0;
     position: relative;
-    background-image: url('../images/SVG/color-bar-small_1.svg'); 
-}**/
+    background-image: url('../images/SVG/color_bar.svg'); 
+	position: fixed;
+	z-index: 2;
+}
+
 
 #hero {
     height: 768px;
@@ -118,7 +121,7 @@ h2 {
 }
 #list p {
 	width: 900px;
-	text-align: left;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 1;
@@ -193,7 +196,8 @@ h2 {
 }
 #start_meeting img {
     width: 15%;
-    margin-right: 20px;
+    margin-left: 10px;
+	margin-right: 10px;
 }
 
 footer {
